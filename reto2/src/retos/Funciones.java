@@ -33,7 +33,7 @@ public class Funciones {
 				int num=Integer.parseInt(s1);
 				return num;
 			}catch(Exception ex) {
-				System.out.println("Introduce un número");
+				System.out.println("Introduce un formato valido");
 			}
 		}while(true);
 	}
@@ -46,7 +46,7 @@ public class Funciones {
 				Double num=Double.parseDouble(s1);
 				return num;
 			}catch(Exception ex) {
-				System.out.println("Introduce un número");
+				System.out.println("Introduce un formato valido");
 			}
 		}while(true);
 	}

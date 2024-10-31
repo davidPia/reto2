@@ -28,6 +28,14 @@ public class Funciones2 {
 		return litros;
 		} 
 	}
+<<<<<<< HEAD
 
 	
+=======
+}  
+
+
+
+
+>>>>>>> branch 'main' of https://github.com/davidPia/reto2.git
 
