@@ -18,4 +18,18 @@ public class Funciones1 {
 		double millas=Km/1.60934;
 		return millas;
 	}
+	
+	public static double Kg_Libras(Scanner sc) {
+		String texto="Introduce el peso en kilogramos";
+		double kg=Funciones.dimeDouble(texto, sc);
+		double libras=kg*2.20462;
+		return libras;
+	}
+	
+	public static double Libras_Kg(Scanner sc) {
+		String texto="Introduce el peso en libras";
+		double libras=Funciones.dimeDouble(texto, sc);
+		double kg=libras/2.20462;
+		return kg;
+	}
 }
