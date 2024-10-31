@@ -20,34 +20,12 @@ public class Reto2 {
 			num = Funciones.dimeEntero(texto, sc);
 
 			if (num == 1) {
-				do {
-					System.out.println("1.Millas a Km");
-					System.out.println("2.Km a Millas");
-					System.out.println("0.Salir");
-					String texto1 = "  ";
-					num2 = Funciones.dimeEntero(texto1, sc);
-					if (num2 == 1) {
-						System.out.println(Funciones1.Millas_Km(sc));
-					} else if (num2 == 2) {
-						System.out.println(Funciones1.Km_Millas(sc));
-					}
-				} while (num2 != 0);
+				Funciones1.submenuLongitudes(sc);
 			} 
 			
 			
 			else if (num == 2) {				
-				do {
-					System.out.println("1.kg a libras");
-					System.out.println("2.libras a kg");
-					System.out.println("0.Salir");
-					String texto1 = "  ";
-					num2 = Funciones.dimeEntero(texto1, sc);
-					if (num2 == 1) {
-						System.out.println(Funciones1.Kg_Libras(sc));
-					} else if (num2 == 2) {
-						System.out.println(Funciones1.Libras_Kg(sc));
-					}
-				} while (num2 != 0);
+				Funciones1.submenuPesos(sc);
 			}
 			
 			else if (num == 3) {				
