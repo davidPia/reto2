@@ -15,4 +15,16 @@ public class Funciones2 {
 		double cels = (fahren-32)*5/9;
 		return cels;
 	}
+	public static double Litros_Galones( Scanner sc) {
+		String texto = "Introduce un volumen en Litros";
+		double litros = Funciones.dimeDouble(texto, sc);
+		double galones = litros*0.264172;
+		return galones;
+	}
+	public static double Galones_Litros( Scanner sc) {
+		String texto = "Introduce un volumen en Galones";
+		double galones = Funciones.dimeDouble(texto, sc);
+		double litros = galones/0.264172;
+		return litros;
+	}
 }
