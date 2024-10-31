@@ -26,5 +26,8 @@ public class Funciones2 {
 		double galones = Funciones.dimeDouble(texto, sc);
 		double litros = galones/0.264172;
 		return litros;
+		} 
 	}
-}
+
+	
+
