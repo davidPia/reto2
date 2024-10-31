@@ -24,30 +24,30 @@ public class Funciones {
 			return false;
 		}
 	}
-	
-	public static int dimeEntero(String texto,Scanner sc) {
+
+	public static int dimeEntero(String texto, Scanner sc) {
 		do {
 			try {
 				System.out.println(texto);
-				String s1=sc.nextLine();
-				int num=Integer.parseInt(s1);
+				String s1 = sc.nextLine();
+				int num = Integer.parseInt(s1);
 				return num;
-			}catch(Exception ex) {
+			} catch (Exception ex) {
 				System.out.println("Introduce un formato valido");
 			}
-		}while(true);
+		} while (true);
 	}
-	
-	public static double dimeDouble(String texto,Scanner sc) {
+
+	public static double dimeDouble(String texto, Scanner sc) {
 		do {
 			try {
 				System.out.println(texto);
-				String s1=sc.nextLine();
-				Double num=Double.parseDouble(s1);
+				String s1 = sc.nextLine();
+				Double num = Double.parseDouble(s1);
 				return num;
-			}catch(Exception ex) {
+			} catch (Exception ex) {
 				System.out.println("Introduce un formato valido");
 			}
-		}while(true);
+		} while (true);
 	}
 }

@@ -21,25 +21,19 @@ public class Reto2 {
 
 			if (num == 1) {
 				Funciones1.submenuLongitudes(sc);
-			} 
-			
-			
-			else if (num == 2) {				
+			}
+
+			else if (num == 2) {
 				Funciones1.submenuPesos(sc);
 			}
-			
-			else if (num == 3) {				
+
+			else if (num == 3) {
 				Funciones2.submenuTemperatura(sc);
-			}
-			else if (num == 4) {				
+			} else if (num == 4) {
 				Funciones2.submenuVolumen(sc);
 			}
-			
-			
 
 		} while (num != 0);
-		
-		
 
 	}
 
