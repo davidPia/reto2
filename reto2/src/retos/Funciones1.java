@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Funciones1 {
 	
-	
+	public static 
 	public static double Millas_Km(Scanner sc) {
 		String texto="Introduce la longitud en millas";
 		double millas=Funciones.dimeDouble(texto, sc);

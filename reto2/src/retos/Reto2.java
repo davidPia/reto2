@@ -82,8 +82,9 @@ public class Reto2 {
 			
 
 		} while (num != 0);
+		
+		
 
-	}    
-	
+	}
 
 }
