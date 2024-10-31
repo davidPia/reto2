@@ -3,6 +3,36 @@ package retos;
 import java.util.Scanner;
 
 public class Funciones2 {
+	public static void submenuTemperatura(Scanner sc) {
+		int num2=89;
+		do {
+			System.out.println("1.Celsius a fahrenheit");
+			System.out.println("2.Fahrenheit a celsius");
+			System.out.println("0.Salir");
+			String texto1 = "  ";
+			num2 = Funciones.dimeEntero(texto1, sc);
+			if (num2 == 1) {
+				System.out.println(Funciones2.Celsius_Fahrenheit(sc));
+			} else if (num2 == 2) {
+				System.out.println(Funciones2.Fahrenheit_Celsius(sc));
+			}
+		} while (num2 != 0);
+	}
+	public static void submenuVolumen(Scanner sc) {
+		int num2=89;
+		do {
+			System.out.println("1.Litros a galones");
+			System.out.println("2.Galones a litros");
+			System.out.println("0.Salir");
+			String texto1 = "  ";
+			num2 = Funciones.dimeEntero(texto1, sc);
+			if (num2 == 1) {
+				System.out.println(Funciones2.Litros_Galones(sc));
+			} else if (num2 == 2) {
+				System.out.println(Funciones2.Galones_Litros(sc));
+			}
+		} while (num2 != 0);
+	}
 	public static double Celsius_Fahrenheit( Scanner sc) {
 		String texto = "Introduce una temperatura en Celsius";
 		double cels = Funciones.dimeDouble(texto, sc);
@@ -28,14 +58,5 @@ public class Funciones2 {
 		return litros;
 		} 
 	}
-<<<<<<< HEAD
 
-	
-=======
-}  
-
-
-
-
->>>>>>> branch 'main' of https://github.com/davidPia/reto2.git
 
