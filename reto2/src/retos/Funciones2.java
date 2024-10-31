@@ -27,4 +27,9 @@ public class Funciones2 {
 		double litros = galones/0.264172;
 		return litros;
 	}
-}
+}  
+
+
+
+
+
